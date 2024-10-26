@@ -17,9 +17,9 @@ class State(rx.State):
 
 def index() -> rx.Component:
     return rx.center(
-        rx.theme_panel(),
+        rx.color_mode.button(position='top-right'),
         rx.vstack(
-            rx.heading("Welcome to Reflex!", size="9"),
+            rx.heading("Welcome to Reflex!", size="5"),
             rx.text(
                 "Test your custom component by editing ", 
                 rx.code(filename),
