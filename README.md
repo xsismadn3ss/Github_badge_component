@@ -16,7 +16,7 @@ pip install reflex-github-badge
 from reflex_github_badge.github_adge import github_badge
 ```
 
-## Use example
+## Usage example
 
 ```python
 def GithubCard() -> rx.Component:
