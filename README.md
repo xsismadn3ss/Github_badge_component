@@ -9,3 +9,19 @@ A Reflex custom component github-badge.
 ```bash
 pip install reflex-github-badge
 ```
+
+## Import
+
+```python
+from reflex_github_badge.github_adge import github_badge
+```
+
+## Use example
+
+```python
+def GithubCard() -> rx.Component:
+    return github_badge(
+        username="(your username)", 
+        description="Hello world 👋"
+    )
+```
