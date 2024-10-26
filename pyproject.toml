@@ -23,5 +23,6 @@ source = "https://github.com/xsismadn3ss/Github_badge_component"
 [project.optional-dependencies]
 dev = ["build", "twine"]
 
+
 [tool.setuptools.packages.find]
 where = ["custom_components"]
