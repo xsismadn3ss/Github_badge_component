@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "reflex-github-badge"
-version = "0.0.1"
+version = "0.0.3"
 description = "Reflex custom component to render a Github card using your profile data"
 readme = "README.md"
 license = { text = "Apache-2.0" }
