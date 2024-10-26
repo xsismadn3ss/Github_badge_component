@@ -5,18 +5,20 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "reflex-github-badge"
 version = "0.0.1"
-description = "Reflex custom component github-badge"
+description = "Reflex custom component to render a Github card using your profile data"
 readme = "README.md"
 license = { text = "Apache-2.0" }
 requires-python = ">=3.9"
 authors = [{ name = "xsismadn3ss", email = "2477carlos.a@gmail.com" }]
-keywords = ["reflex","reflex-custom-components"]
+keywords = ["reflex", "reflex-custom-components", "'github-card'"]
 
 dependencies = ["reflex>=0.6.3.post1"]
 
 classifiers = ["Development Status :: 4 - Beta"]
 
 [project.urls]
+homepage = "https://github.com/xsismadn3ss"
+source = "https://github.com/xsismadn3ss/Github_badge_component"
 
 [project.optional-dependencies]
 dev = ["build", "twine"]
